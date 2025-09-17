@@ -4,7 +4,7 @@
 
 # Task - 1 :- Create a Python program that asks the user for their age.Implement conditional statements to check the following: If the user is below 18, print "You are a minor." If the user is between 18 and 65, print "You are an adult." If the user is above 65, print "You are a senior." Add a check for invalid input (e.g., user enters a non-numeric value).
 
-while True :
+while True :  # Asks user for input until they give a valid input
     try :
         age = int(input("Enter your age: "))
         if age <= 0 :
